@@ -1,12 +1,11 @@
 
 <img  align="left" width="150" style="float: left;" src="https://www.upm.es/sfs/Rectorado/Gabinete%20del%20Rector/Logos/UPM/CEI/LOGOTIPO%20leyenda%20color%20JPG%20p.png">
-<img  align="right" width="60" style="float: right;" src="http://www.dit.upm.es/figures/logos/ditupm-big.gif">
+<img  align="right" width="150" style="float: right;" src="https://miriadax.net/miriadax-theme/images/custom/logo_miriadax_new.svg">
 
 <br/><br/><br/>
+# Módulo 2: Creación del MVC de la Lista del Recurso de Preguntas, Autocarga, Paginación, Búsqueda...
+Versión: 19 de Junio de 2020
 
-# Entrega 7: Quiz Express 
-
-Versión: 19 de Marzo de 2020
 
 ## Objetivos
 * Afianzar los conocimientos obtenidos sobre el uso de Express para desarrollar servidores web.
@@ -42,13 +41,13 @@ Para las vistas se usarán plantillas **EJS**. Se usará el paquete **express-pa
 Es necesario utilizar la **versión 12 de Node.js** para el desarrollo de esta práctica. El proyecto debe clonarse en el ordenador en el que se está trabajando:
 
 ```
-$ git clone https://github.com/CORE-2020/Entrega7_quizexpress
+$ git clone https://github.com/ging-moocs/MOOC_quiz_mod2-express_generator_entrega
 ```
 
 A continuación se debe acceder al directorio de trabajo, e instalar todas las dependencias.
 
 ```
-$ cd Entrega7_quizexpress
+$ cd MOOC_quiz_mod2-express_generator_entrega
 $ npm install
 ```
 
@@ -287,57 +286,24 @@ Cada quiz se mostrará en una línea con la pregunta y la respuesta separadas po
 
 Ahora el servidor debe responder a la petición **http://localhost:3000/quizzes** mostrando el listado de todos los quizzes.
 
-## Prueba de la práctica
+## Prueba de la práctica 
 
-Para ayudar al desarrollo, se provee una herramienta de autocorrección que prueba las distintas funcionalidades que se piden en el enunciado. Para utilizar esta herramienta debes tener node.js (y npm) (https://nodejs.org/es/) y Git instalados.
+Para ayudar al desarrollo, se provee una herramienta de autocorrección que prueba las distintas funcionalidades que se piden en el enunciado. Para utilizar esta herramienta debes tener node.js (y npm) ([https://nodejs.org/es/](https://nodejs.org/es/)) y Git instalados. 
 
-Para instalar y hacer uso de la herramienta de autocorrección en el ordenador local, ejecuta los siguientes comandos en el directorio raíz del proyecto, es decir, en el directorio padre del directorio **quiz_express**:
+Para instalar y hacer uso de la [herramienta de autocorrección](https://www.npmjs.com/package/moocauto) en el ordenador local, ejecuta los siguientes comandos en el directorio del proyecto:
 
 ```
-$ sudo npm install -g autocorector    ## Instala el programa de test
-$ autocorector                   ## Pasa los tests al fichero a entregar
-............................     ## en el directorio de trabajo
+$ npm install -g moocauto     ## Instala el programa de test
+$ moocauto                    ## Pasa los tests al fichero a entregar
+............................  ## en el directorio de trabajo
 ... (resultado de los tests)
 ```
-
-También se puede instalar como paquete local, en el caso de que no dispongas de permisos en 
-el ordenador en el que estás trabajando:
-
+También se puede instalar como paquete local, en el caso de que no se dispongas de permisos en el ordenador desde el que estás trabajando:
 ```
-$ npm install autocorector     ## Instala el programa de test
-$ npx autocorector             ## Pasa los tests al fichero a entregar
+$ npm install moocauto         ## Instala el programa de test
+$ npx moocauto                 ## Pasa los tests al fichero a entregar
 ............................   ## en el directorio de trabajo
 ... (resultado de los tests)
 ```
 
-Se puede pasar la herramienta de autocorrección tantas veces como se desee sin ninguna repercusión en la calificación.
-
-
-
-## Instrucciones para la Entrega y Evaluación.
-
-Una vez satisfecho con su calificación, el alumno puede subir su entrega a Moodle con el siguiente comando:
-
-```
-$ autocorector --upload
-```
-
-o, si se ha instalado como paquete local:
-
-```
-$ npx autocorector --upload
-```
-
-La herramienta de autocorrección preguntará por el correo del alumno y el token de Moodle. 
-En el enlace **https://www.npmjs.com/package/autocorector** se proveen instrucciones para encontrar dicho token.
-
-**RÚBRICA**: Se puntuará el ejercicio a corregir sumando el % indicado a la nota total si la parte indicada es correcta:
-
-- **10%:** Integracion de express-partials
-- **10%:** Scripts de package.json
-- **10%:** Petición /
-- **10%:** Eliminar petición /users
-- **20%:** Petición /credits
-- **40%:** Petición /quizzes
-
-Si pasa todos los tests se dará la máxima puntuación.
+Se puede pasar la herramienta de autocorrección tantas veces como se desee.

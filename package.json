@@ -1,12 +1,12 @@
 {
-    "name": "Entrega7_quizexpress",
-    "author": "CORE-2020",
+    "name": "MOOC_quiz_mod2-express_generator_entrega",
+    "author": "ging-moocs",
     "license": "GNU",
     "version": "0.1.7",
     "info": {
-        "githubURL": "CORE-2020/Entrega7_quizexpress",
+        "githubURL": "ging-moocs/MOOC_quiz_mod2-express_generator_entrega",
         "serverUrl": "https://autocorector.dit.upm.es/",
-        "courseId": "8249",
-        "assignmentId": "78553"
+        "courseId": "4",
+        "assignmentId": "6"
     }
 }
