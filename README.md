@@ -307,3 +307,14 @@ $ npx moocauto                 ## Pasa los tests al fichero a entregar
 ```
 
 Se puede pasar la herramienta de autocorrección tantas veces como se desee.
+
+A la hora de evaluar, el evaluador tendrá que seguir los siguientes criterios:
+
+**RÚBRICA:** Se puntuará el ejercicio a corregir sumando el % indicado a la nota total si la parte indicada es correcta:
+
+* **10%:** Integracion de express-partials
+* **10%:** Scripts de package.json
+* **10%:** Petición /
+* **10%:** Eliminar petición /users
+* **20%:** Petición /credits
+* **40%:** Petición /quizzes
