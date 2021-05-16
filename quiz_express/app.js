@@ -28,6 +28,9 @@ app.use(partials());
 
 app.use('/', indexRouter);
 
+//Midleware de Credits
+app.use('/credits', indexRouter);
+
 //SE COMENTA PARA DESVINCULAR EL ROUTE users
 //app.use('/users', usersRouter);
 
