@@ -1,9 +1,11 @@
 <section>
     <div>
-        <h1>Probando</h1>
+        <h1>Aplicación Express de Gonzalo Zorrilla</h1>
         <h2>Lista de Quizzes</h2>
         <ul>
-            <% quizzes.forEach(function(quizzes) { %>
+            <% 
+                //Esta ciclo permite dibujar los quizzes
+                quizzes.forEach(function(quizzes) { %>
                 <li>
                     <%= quizzes.question %>: <%= quizzes.answer %> 
                 </li>

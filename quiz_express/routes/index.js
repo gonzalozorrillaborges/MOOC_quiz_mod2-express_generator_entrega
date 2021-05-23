@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 
 //METODO INDEX PARA ROUTER QUIZZES
-var index = require('../controllers/quiz.js');
+var index = require('../controllers/quiz.js').index;
 //let index_2 = new index();
 
 /* GET home page. */
@@ -16,6 +16,7 @@ router.get('/credits', function(req, res, next){
 });
 
 /* GET Quizzes */
-router.get('/quizzes', index.index);
+//Se crea el router para manejar la ruta quizzes con el metodo index importado de controllers/quiz.js
+router.get('/quizzes', index);
 
 module.exports = router;
