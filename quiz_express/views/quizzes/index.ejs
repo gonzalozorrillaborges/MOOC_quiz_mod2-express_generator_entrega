@@ -1,0 +1,14 @@
+<section>
+    <div>
+        <h1>Probando</h1>
+        <h2>Lista de Quizzes</h2>
+        <ul>
+            <% quizzes.forEach(function(quizzes) { %>
+                <li>
+                    <%= quizzes.question %>: <%= quizzes.answer %> 
+                </li>
+            <% }); %>
+        </ul>
+
+    </div>
+</section>

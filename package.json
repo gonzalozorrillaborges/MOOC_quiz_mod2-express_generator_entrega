@@ -10,6 +10,7 @@
         "assignmentId": "6"
     },
     "dependencies": {
-        "express-generator": "^4.16.1"
+        "express-generator": "^4.16.1",
+        "moocauto": "^1.0.0"
     }
 }
